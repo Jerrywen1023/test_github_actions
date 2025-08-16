@@ -4,6 +4,7 @@ on:
 
 jobs:
   call-build:
-    uses: Jerrywen1023/test_github_actions/.github/workflows/Jerrywen1023.yml@main
+    uses: Jerrywen1023/test_github_actions/.github/workflows/build.yml@main
     with:
       version: "3.10"
+
